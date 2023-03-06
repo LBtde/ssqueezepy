@@ -26,7 +26,7 @@ x += np.sqrt(noise_var) * np.random.randn(len(x))
 
 #### Show signal & its global spectrum #######################################
 axf = np.abs(rfft(x))
-
+#scat画点
 plot(xo); scat(xo, s=8, show=1)
 plot(x);  scat(x,  s=8, show=1)
 plot(axf, show=1)
